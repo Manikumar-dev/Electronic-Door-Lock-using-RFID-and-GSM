@@ -18,12 +18,18 @@ The main building blocks of the project are:
 
 • Arduino microcontroller.
 • Adapter power supply.
+
 • RFID reader.
+
 • Relay.
+
 • Solenoid lock.
+
 • GSM.
+
 • Buzzer.
 
 Software used:
+
 1. Arduino IDE for compiling and dumping code into the controller
 2. Express SCH for Circuit design.
