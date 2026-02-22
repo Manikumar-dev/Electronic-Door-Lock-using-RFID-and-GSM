@@ -5,12 +5,17 @@ With the rising interest in security, frameworks with high reliability and fast 
 When a user scans their RFID tag on the reader, the microcontroller checks whether the card is registered. If it is valid, the system unlocks the door via the relay and solenoid lock, allowing access. If the tag is unrecognized, the system activates a buzzer as a security alert and sends an SMS notification via the GSM module to a predefined mobile number, alerting the concerned authority of the unauthorized access attempt. The relay functions as a switch to lock or unlock the door. The entire process is managed by an Arduino program written in embedded C.
 
 Main objective of this project:
+
 • To lock/unlock the door using RFID technology.
+
 • This system gives a buzzer if an unauthorized person tries to access the door.
+
 • Relay-based switching mechanism.
+
 • Using Arduino to achieve this task.
 
 The main building blocks of the project are:
+
 • Arduino microcontroller.
 • Adapter power supply.
 • RFID reader.
